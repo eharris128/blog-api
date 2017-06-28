@@ -1,0 +1,26 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "A API for blogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddinnison/blog-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviddinnison/blog-api/issues"
+  },
+  "homepage": "https://github.com/daviddinnison/blog-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "uuid": "^3.1.0"
+  }
+}
